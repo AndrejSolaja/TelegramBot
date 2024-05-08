@@ -1,0 +1,8 @@
+version: "3"
+services:
+  bot:
+    container_name: mybot
+    build: .
+    restart: unless-stopped
+
+
